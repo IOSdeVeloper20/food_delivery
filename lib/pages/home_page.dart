@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.pop(context);
               log("This is the basket", name: "Basket Button");
             },
             icon: Icon(
